@@ -33,7 +33,7 @@
 This repository demonstrates a complete, reproducible spatial transcriptomics analysis workflow applied to 10x Genomics Visium human brain glioblastoma FFPE data. The repository contains **two complementary analysis notebooks**:
 
 1. A **fully portable simulation pipeline** (`01_visium_spatial_analysis.py`) that runs end-to-end without any data download — ideal for testing and demonstrating pipeline logic
-2. A **real data analysis notebook** (`02_visium_real_data_analysis_polished.ipynb`) applied to the actual 10x Genomics Human Brain Cancer Visium dataset, with rendered outputs and full biological interpretation
+2. A **real data analysis notebook** (`02_visium_real_data_analysis.ipynb`) applied to the actual 10x Genomics Human Brain Cancer Visium dataset, with rendered outputs and full biological interpretation
 
 Together, these demonstrate the full spectrum of spatial transcriptomics expertise: from pipeline engineering and methodology to hands-on biological discovery on real tissue data.
 
@@ -55,9 +55,9 @@ Together, these demonstrate the full spectrum of spatial transcriptomics experti
 | Notebook | Description | Data Required | Outputs |
 |----------|-------------|---------------|---------|
 | `notebooks/01_visium_spatial_analysis.py` | Full 9-step pipeline on biologically realistic simulated Visium data. Runs immediately, no download needed. | None | 8 figures + 2 tables in `results/simulated/` |
-| `notebooks/02_visium_real_data_analysis_polished.ipynb` | End-to-end analysis on real 10x Genomics Human Brain Glioblastoma FFPE dataset. Rendered outputs included — view directly on GitHub without running. | [10x Visium dataset](https://www.10xgenomics.com/datasets/human-brain-cancer-11-mm-capture-area-ffpe-2-standard) | 9 figures + 2 tables in `results/real_data/` |
+| `notebooks/02_visium_real_data_analysis.ipynb` | End-to-end analysis on real 10x Genomics Human Brain Glioblastoma FFPE dataset. Rendered outputs included — view directly on GitHub without running. | [10x Visium dataset](https://www.10xgenomics.com/datasets/human-brain-cancer-11-mm-capture-area-ffpe-2-standard) | 9 figures + 2 tables in `results/real_data/` |
 
-> **Tip:** The polished notebook (`02`) includes rendered figures and cell outputs — you can view the full analysis results directly on GitHub without running any code.
+> **Tip:** The notebook (`02`) includes rendered figures and cell outputs — you can view the full analysis results directly on GitHub without running any code.
 
 ---
 
@@ -160,7 +160,7 @@ Raw SpaceRanger Output (.h5 + spatial/)
 | RBFOX3 | 0.30 | Neuronal layers |
 | MKI67 | 0.23 | Proliferating zone |
 
-> **Real data results:** See rendered outputs in `02_visium_real_data_analysis_polished.ipynb`
+> **Real data results:** See rendered outputs in `02_visium_real_data_analysis.ipynb`
 
 ---
 
@@ -170,7 +170,7 @@ Raw SpaceRanger Output (.h5 + spatial/)
 spatial-transcriptomics-visium/
 ├── notebooks/
 │   ├── 01_visium_spatial_analysis.py               # Portable simulation pipeline (no data needed)
-│   └── 02_visium_real_data_analysis_polished.ipynb # Real data — rendered outputs included
+│   └── 02_visium_real_data_analysis.ipynb          # Real data — rendered outputs included
 ├── src/
 │   ├── qc_utils.py                                  # QC helper functions
 │   ├── spatial_utils.py                             # Spatial analysis utilities
@@ -264,9 +264,8 @@ python 01_visium_spatial_analysis.py
 **Run in Jupyter Lab:**
 ```bash
 jupyter lab
-# Open: notebooks/02_visium_real_data_analysis_polished.ipynb
+# Open: notebooks/02_visium_real_data_analysis.ipynb
 # Run all cells top to bottom
-# Save notebook WITH outputs — do not clear before pushing to GitHub
 ```
 
 ### 5. View results
@@ -275,8 +274,6 @@ results/simulated/figures/   → Simulated pipeline outputs (8 figures)
 results/real_data/figures/   → Real data outputs (9 figures including H&E overlays)
 results/real_data/tables/    → DE markers + Moran's I statistics (CSV)
 ```
-
-> **Note on notebook outputs:** After running `02_visium_real_data_analysis_polished.ipynb` on the real dataset, save the notebook **with all outputs intact** before pushing to GitHub. This embeds the spatial figures inline, making the analysis fully viewable on GitHub without requiring anyone to re-run the code.
 
 ---
 
