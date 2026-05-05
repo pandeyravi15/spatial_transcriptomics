@@ -1,0 +1,149 @@
+{
+  "dataset": "10x Genomics Visium Human Brain FFPE",
+  "total_spots": 2444,
+  "spots_after_qc": 2263,
+  "genes_analyzed": 5000,
+  "hvgs_selected": 2000,
+  "pcs_used": 20,
+  "clusters_found": 8,
+  "figures_generated": 8,
+  "tables_generated": 2,
+  "cluster_summary": {
+    "0": {
+      "cluster_name": "Tumor Core",
+      "n_spots": 216,
+      "top_markers": [
+        "ICAM1",
+        "FLT1",
+        "PECAM1",
+        "ESAM",
+        "ENG",
+        "PDGFRB",
+        "VWF",
+        "CLDN5",
+        "GENE0214",
+        "GENE0580"
+      ],
+      "mean_lfc": 2.6834524030569074
+    },
+    "1": {
+      "cluster_name": "Proliferating Glia",
+      "n_spots": 375,
+      "top_markers": [
+        "ESAM",
+        "VWF",
+        "CLDN5",
+        "PECAM1",
+        "ENG",
+        "PDGFRB",
+        "ICAM1",
+        "FLT1",
+        "GENE0031",
+        "GENE0407"
+      ],
+      "mean_lfc": 2.3603231042990016
+    },
+    "2": {
+      "cluster_name": "Neurons (L2/3)",
+      "n_spots": 282,
+      "top_markers": [
+        "CX3CR1",
+        "HEXB",
+        "C1QB",
+        "AIF1",
+        "CSF1R",
+        "P2RY12",
+        "TREM2",
+        "TMEM119",
+        "GENE0203",
+        "GENE0706"
+      ],
+      "mean_lfc": 2.4443412633386967
+    },
+    "3": {
+      "cluster_name": "Neurons (L5/6)",
+      "n_spots": 617,
+      "top_markers": [
+        "MBP",
+        "MOG",
+        "GFAP",
+        "ERMN",
+        "VIM",
+        "PLP1",
+        "MAG",
+        "OPALIN",
+        "MOBP",
+        "MYRF"
+      ],
+      "mean_lfc": 0.4966841574577805
+    },
+    "4": {
+      "cluster_name": "Oligodendrocytes",
+      "n_spots": 188,
+      "top_markers": [
+        "MOG",
+        "MBP",
+        "ERMN",
+        "MYRF",
+        "MAG",
+        "MOBP",
+        "OPALIN",
+        "PLP1",
+        "RORB",
+        "SULF1"
+      ],
+      "mean_lfc": 1.0042618949767834
+    },
+    "5": {
+      "cluster_name": "Astrocytes",
+      "n_spots": 179,
+      "top_markers": [
+        "AIF1",
+        "HEXB",
+        "C1QB",
+        "TMEM119",
+        "P2RY12",
+        "CX3CR1",
+        "CSF1R",
+        "TREM2",
+        "GENE0197",
+        "GENE0126"
+      ],
+      "mean_lfc": 2.776900252792432
+    },
+    "6": {
+      "cluster_name": "Microglia/Immune",
+      "n_spots": 127,
+      "top_markers": [
+        "ALDH1L1",
+        "AQP4",
+        "S100B",
+        "SLC1A2",
+        "ALDOC",
+        "CLU",
+        "GJA1",
+        "GFAP",
+        "GENE0926",
+        "GENE0393"
+      ],
+      "mean_lfc": 2.9738184866643467
+    },
+    "7": {
+      "cluster_name": "Vascular/Endothelial",
+      "n_spots": 279,
+      "top_markers": [
+        "MOG",
+        "MBP",
+        "VIM",
+        "CNP",
+        "NES",
+        "SOX2",
+        "FEZF2",
+        "OLIG2",
+        "OPALIN",
+        "PLP1"
+      ],
+      "mean_lfc": 1.260051747336956
+    }
+  }
+}
