@@ -1,9 +1,0 @@
-Cluster,Cell_Type,N_Spots,Top_Markers
-0,Tumor Core,216,"ICAM1, FLT1, PECAM1, ESAM, ENG"
-1,Proliferating Glia,375,"ESAM, VWF, CLDN5, PECAM1, ENG"
-2,Neurons (L2/3),282,"CX3CR1, HEXB, C1QB, AIF1, CSF1R"
-3,Neurons (L5/6),617,"MBP, MOG, GFAP, ERMN, VIM"
-4,Oligodendrocytes,188,"MOG, MBP, ERMN, MYRF, MAG"
-5,Astrocytes,179,"AIF1, HEXB, C1QB, TMEM119, P2RY12"
-6,Microglia/Immune,127,"ALDH1L1, AQP4, S100B, SLC1A2, ALDOC"
-7,Vascular/Endothelial,279,"MOG, MBP, VIM, CNP, NES"
