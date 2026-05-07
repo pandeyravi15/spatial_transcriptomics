@@ -55,7 +55,7 @@ Together, these demonstrate the full spectrum of spatial transcriptomics experti
 | Notebook | Description | Data Required | Outputs |
 |----------|-------------|---------------|---------|
 | `notebooks/01_visium_spatial_analysis.py` | Full 9-step pipeline on biologically realistic simulated Visium data. Runs immediately, no download needed. | None | 8 figures + 2 tables in `results/simulated/` |
-| `notebooks/02_visium_real_data_analysis.ipynb` | End-to-end analysis on real 10x Genomics Human Brain Glioblastoma FFPE dataset. Rendered outputs included — view directly on GitHub without running. | [10x Visium dataset](https://www.10xgenomics.com/datasets/human-brain-cancer-11-mm-capture-area-ffpe-2-standard) | 9 figures + 2 tables in `results/real_data/` |
+| `notebooks/02_visium_real_data_analysis.ipynb` | Complete pipeline including cell type annotation (Step 10) using Allen Brain Atlas markers — 14 spatial domains identified | [10x Visium dataset](https://www.10xgenomics.com/datasets) | 13 figures + 3 tables in `results/real_data/` |
 
 > **Tip:** The notebook (`02`) includes rendered figures and cell outputs — you can view the full analysis results directly on GitHub without running any code.
 
