@@ -162,6 +162,27 @@ Raw SpaceRanger Output (.h5 + spatial/)
 
 > **Real data results:** See rendered outputs in `02_visium_real_data_analysis.ipynb`
 
+
+---
+
+## 📄 Biological Interpretation Report
+
+A comprehensive analysis report documents the complete biological
+interpretation of all 14 spatial domains identified in this analysis.
+
+| Document | Format | Description |
+|----------|--------|-------------|
+| [GBM Spatial Analysis Report](docs/GBM_SpatialAnalysis_Report_Final.pdf) | PDF | Full 7-section report — cluster annotations, GBM subtype characterization, tumor microenvironment analysis, Moran's I results, therapeutic targets |
+| [Cluster Annotations Table](results/real_data/tables/cluster_annotations.csv) | CSV | Machine-readable annotation summary — all 14 clusters with confidence scores |
+
+### Report Highlights
+- **14 spatial domains** annotated using Allen Brain Atlas + GBM molecular subtype markers
+- **4 GBM subtypes** spatially recovered: Proneural, Hypoxic Core, Angiogenic Front, Mesenchymal
+- **3 neuronal populations** identified: L2/3, L5/6, and long-range projection neurons
+- **2 oligodendrocyte populations**: actively myelinating (PTGDS+) vs structural (MBP+)
+- **Novel finding:** LGALS1 (Galectin-1) in hypoxic GBM core — dual role in immune evasion and angiogenesis
+- **Clinical biomarker:** CHI3L1 / YKL-40 spatially confirmed in mesenchymal GBM cluster
+
 ---
 
 ## Repository Structure
