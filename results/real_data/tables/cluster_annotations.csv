@@ -1,0 +1,15 @@
+leiden_cluster,cell_type,n_spots,pct_of_total,auto_score,confidence,auto_assignment,manually_corrected
+0,Low Quality (MT-high),1966,18.4,0.422,Remove,Tumor   Mesenchymal,Yes
+1,Oligo-Microglia Mixed,1324,12.4,1.19,High,Oligodendrocytes,Yes
+2,Excitatory Neurons (L2/3),1082,10.1,0.951,Medium,Excitatory Neurons,Yes
+3,Inflammatory Tumor Edge,1040,9.7,0.879,Medium,Inflammatory,Yes
+4,Mesenchymal / Fibroblast,898,8.4,1.259,Medium,Tumor   Mesenchymal,Yes
+5,Proneural GBM,828,7.7,0.939,High,Tumor   Neural Stem-like,Yes
+6,Excitatory Neurons (L5/6),704,6.6,0.806,High,Excitatory Neurons,Yes
+7,Excitatory Neurons (Proj.),692,6.5,0.707,High,Excitatory Neurons,Yes
+8,Mature Oligodendrocytes,681,6.4,1.615,High,Oligodendrocytes,Yes
+9,Hypoxic GBM Core,659,6.2,1.91,Medium,Tumor   Hypoxic,Yes
+10,Reactive Astrocytes,334,3.1,1.068,High,Astrocytes,Yes
+11,Mature Oligodendrocytes (MBP+),309,2.9,0.658,Medium,Oligodendrocytes,Yes
+12,Angiogenic Tumor Front,101,0.9,1.579,Medium,Tumor   Angiogenic,Yes
+13,Mesenchymal GBM,67,0.6,1.401,Low,Tumor   Mesenchymal,Yes
